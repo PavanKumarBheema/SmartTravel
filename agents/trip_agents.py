@@ -21,9 +21,9 @@ class TripAgents:
 				base_url="http://localhost:11434"
 			),
 			verbose=True,
-				allow_delegation=False,
-				max_iter=4,
-			)
+			allow_delegation=False,
+			max_iter=4,
+		)
 	def travel_concierge_agent(self):
 		return Agent(
 			role='Amazing Travel Concierge',
@@ -39,4 +39,4 @@ class TripAgents:
 			verbose=True,
 			allow_delegation=False,
 			max_iter=4,
-			)
+		)
